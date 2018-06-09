@@ -1,0 +1,33 @@
+{
+  "name": "scorp-project",
+  "version": "1.0.0",
+  "description": "Create project for Scorpius",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tarik29/scorp-project.git"
+  },
+  "author": "Mazurkevich Taras : tvsy6520@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-imagemin": "^4.0.0",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-rigger": "^0.5.8",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.1",
+    "gulp-uglify": "^3.0.0",
+    "gulp-watch": "^4.3.11",
+    "imagemin-pngquant": "^5.0.1",
+    "rimraf": "^2.6.2"
+  },
+  "bugs": {
+    "url": "https://github.com/Tarik29/scorp-project/issues"
+  },
+  "homepage": "https://github.com/Tarik29/scorp-project#readme"
+}
