@@ -17,26 +17,26 @@ const reload = browserSync.reload;
 
 
 var path = {
-    build: { //Тут мы укажем куда складывать готовые после сборки файлы
-        php: 'build/',
-        js: 'build/js/',
-        css: 'build/css/',
-        img: 'build/img/',
-        fonts: 'build/fonts/'
+    build: { 
+        php: './build/',
+        js: './build/js/',
+        css: './build/css/',
+        img: './build/img/',
+        fonts: './build/fonts/'
     },
-    src: { // Пути откуда брать исходники
-        php: 'source/index.php',
-        js: 'source/js/main.js',
-        style: 'source/style/main.sass',
-        img: 'source/img/**/*.*', 
-        fonts: 'source/fonts/**/*.*'
+    src: { 
+        php: './source/index.php',
+        js: './source/js/main.js',
+        style: './source/style/main.sass',
+        img: './source/img/**/*.*', 
+        fonts: './source/fonts/**/*.*'
     },
-    watch: { // Тут мы укажем, за изменением каких файлов мы хотим наблюдать
-        template: 'source/**/*.php',
-        js: 'source/js/**/*.js',
-        style: 'source/style/**/*.sass',
-        img: 'source/img/**/*.*',
-        fonts: 'source/fonts/**/*.*'
+    watch: { 
+        php: './source/index.php',
+        js: './source/js/**/*.js',
+        style: './source/style/**/*.sass',
+        img: './source/img/**/*.*',
+        fonts: './source/fonts/**/*.*'
     },
     clean: './build'
 };
@@ -45,13 +45,14 @@ var path = {
 /* ------------ PHP build ------------- */
 gulp.task('php:build', function() {
 	return gulp.src(path.src.php)
-		.pipe(gulp.dest(path.build.php));
+		.pipe(gulp.dest(path.build.php))
+        .pipe(reload({stream: true}));
 });
 
 
 /* ------------ js build ------------- */
 gulp.task('js:build', function() {
-    gulp.src(path.src.js)
+    return gulp.src(path.src.js)
         .pipe(rigger())
         .pipe(sourcemaps.init())
         .pipe(uglify())
@@ -63,47 +64,36 @@ gulp.task('js:build', function() {
 
 /* ------------ Style build ------------- */
 gulp.task('style:build', function() {
-    gulp.src(path.src.style) // Выберем наш main.scss
-        .pipe(sourcemaps.init()) // То же самое что и с js
-        .pipe(sass()) // Скомпилируем
-        .pipe(prefixer()) // Добавим вендорные префиксы
-        .pipe(cssmin()) // Сожмем
+    return gulp.src(path.src.style) 
+        .pipe(sourcemaps.init()) 
+        .pipe(sass()) 
+        .pipe(prefixer()) 
+        .pipe(cssmin())
         .pipe(sourcemaps.write())
-        .pipe(gulp.dest(path.build.css)) // И в build
+        .pipe(gulp.dest(path.build.css))
         .pipe(reload({stream: true}));
 });
 
 
 /* ------------ Image build ------------- */
 gulp.task('image:build', function() {
-    gulp.src(path.src.img) // Выберем наши картинки
-        .pipe(imagemin({ // Сожмем их
+    return gulp.src(path.src.img) 
+        .pipe(imagemin({ 
             progressive: true,
             svgoPlugins: [{removeViewBox: false}],
             use: [pngquant()],
             interlaced: true
         }))
-        .pipe(gulp.dest(path.build.img)) // И бросим в build
+        .pipe(gulp.dest(path.build.img)) 
         .pipe(reload({stream: true}));
 });
 
 
 /* ------------ Fonts build ------------- */
 gulp.task('fonts:build', function() {
-    gulp.src(path.src.fonts)
-        .pipe(gulp.dest(path.build.fonts));
-});
- 
-
-/* ------------ Building ------------- */
-gulp.task('build', function() {
-    return [
-        'php:build',
-        'js:build',
-        'style:build',
-        'fonts:build',
-        'image:build'
-    ];
+    return gulp.src(path.src.fonts)
+        .pipe(gulp.dest(path.build.fonts))
+        .pipe(reload({stream: true}));
 });
 
 
@@ -120,9 +110,7 @@ gulp.task('watch', function() {
 /* ------------ Local sserver for livereload ------------- */
 gulp.task('browser-sync', function(){
     browserSync.init({
-        proxy: "scorp-project.dev",
-        port: 9000,
-        notify: false
+        proxy: "scorp-project.dev"
     });
 })
 
@@ -134,6 +122,8 @@ gulp.task('clean', function (cb) {
 
 
 /* ------------ Start ------------- */
-gulp.task('default', gulp.series(
-    gulp.parallel('build', 'browser-sync', 'watch')
-));
+gulp.task('default', gulp.series('clean', 
+        gulp.parallel('php:build', 'style:build', 'js:build', 'image:build', 'fonts:build'),
+        gulp.parallel('watch', 'browser-sync')
+    )
+);
