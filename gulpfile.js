@@ -26,7 +26,7 @@ var path = {
     },
     src: { 
         php: './source/index.php',
-        js: './source/js/main.js',
+        js: './source/js/*.js',
         style: './source/style/main.sass',
         img: './source/img/**/*.*', 
         fonts: './source/fonts/**/*.*'
@@ -64,7 +64,7 @@ gulp.task('js:build', function() {
 
 /* ------------ Style build ------------- */
 gulp.task('style:build', function() {
-    return gulp.src(path.src.style) 
+    return gulp.src([path.src.style, './source/style/libs/*.css']) 
         .pipe(sourcemaps.init()) 
         .pipe(sass()) 
         .pipe(prefixer()) 

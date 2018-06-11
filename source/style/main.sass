@@ -1,0 +1,42 @@
+// Import all variable and mixins
+@import var
+
+// Set main fonts
+@font-face
+	font-family: "roboto_regular"
+		src: url("../fonts/Roboto_regular.ttf")
+
+@font-face
+	font-family: "roboto_italic"
+		src: url("../fonts/Roboto_italic.ttf")
+
+@font-face
+	font-family: "roboto_bold"
+		src: url("../fonts/Roboto_bold.ttf")
+
+// Set defoult values
+*
+	margin: 0
+	padding: 0
+
+html, body
+	font-family: 'roboto_regular', Arial, San-serif
+
+h1, h2, h3, h4, h5, h6
+	font-family: 'roboto_bold', Arial, San-serif
+
+a
+	color: #000
+	text-decoration: none
+
+ul
+	li 
+		list-style-type: none
+
+
+// Import styles from src
+@import src/preloader
+@import src/wrapper
+
+// Import animate for site
+@import animate
