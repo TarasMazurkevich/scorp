@@ -1,10 +1,99 @@
 .wrapper
+	display: flex
+	flex-direction: column
+	align-items: center
+	justify-content: space-around
+
 	position: relative
 	width: 100vw
 	height: 100vh
-	text-align: center
 	overflow: hidden
 	
+	// HEADER
+	.header
+		width: 80%
+		text-align: center
+
+		.title
+			@media screen and (min-width: 1px) and (max-width: 401px)
+				font-size: 22px
+
+			@media screen and (min-width: 402px) and (max-width: 576px)
+				font-size: 24px
+
+	// ROW
+	.row
+		width: 100%
+		height: 70%
+
+	// ROW > ARTICLE
+	&__art
+		display: flex
+		flex-direction: column
+		justify-content: space-around
+		align-items: center
+		// border: 1px solid $black
+
+	// ROW > ARTICLE > TITLE
+	&_title
+		position: relative
+		bottom: 10%
+	
+	// ROW > ARTICLE > BUTTON
+	&_button
+		position: relative
+		top: 10%
+		background-color: inherit
+		border: 2px solid $black
+		border-radius: 20px
+		width: 150px
+		height: 30px
+		cursor: pointer
+
+	&_button:hover
+		background-color: $black
+		color: $white
+
+	// ROW > FOOTER
+	&__footer
+		display: flex
+		flex-direction: column
+		align-items: center
+
+	// ROW > FOOTER > PHONE
+	&_phone
+		margin-bottom: 10px
+		font-size: 26px
+
+		@media screen and (min-width: 1px) and (max-width: 401px)
+			font-size: 22px
+
+		@media screen and (min-width: 402px) and (max-width: 576px)
+			font-size: 24px
+
+	// WRAPPER-LIST
+	&__list
+		display: flex
+		justify-content: space-around
+		width: 100%
+
+	// ROW > FOOTER > SOC-Button
 	&_soc
-		display: inline-block
-		
+		display: inline-flex
+		justify-content: center
+		align-items: center
+		border: 1px solid $black
+		border-radius: 50%
+		width: 35px
+		height: 35px
+		cursor: pointer
+
+		@media screen and (min-width: 1px) and (max-width: 401px)
+			width: 30px
+			height: 30px
+
+
+	&_soc:hover
+		background-color: $black
+	&_soc:hover svg>path
+		color: $white
