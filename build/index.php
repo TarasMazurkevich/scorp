@@ -53,112 +53,112 @@
 	</div> -->
 
 	<div class="fire-wrapper">
-		<section class="programs">
-			<div class="comeback">Кнопка назад</div>
-			<header class="header programs__header">
-				<h2 class="title programs_title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, omnis beatae voluptatibus voluptates deleniti, nisi.</h2>
+		<!-- <section class="programs">
+			<div class="comeback">Назад</div>
+			<header class="programs__header">
+				<h2 class="programs_title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, omnis beatae voluptatibus voluptates deleniti, nisi.</h2>
 			</header>
 			<div class="row">
 				<article class="col-12 col-md-6 programs__article">
 					<h3 class="programs_name">Moon Light</h3>
-					<div class="programs_promo">
-					 	<a href="https://www.youtube.com/embed/Kxjvsaws7UQ?rel=0" data-lity><img src="#" alt="iFrame from youtube"></a> <!-- video from youtube -->
+					<div class="programs__promo">
+					 	<a href="https://www.youtube.com/embed/Kxjvsaws7UQ?rel=0" data-lity><img src="img/image.png" alt="iFrame from youtube"></a> video from youtube
 					</div>
-					<!-- Slider -->
+					Slider
 					<ul class="programs__slider">
-						<li class="programs_img"><img src="" alt="img1"></li>
-						<li class="programs_img"><img src="" alt="img2"></li>
-						<li class="programs_img"><img src="" alt="img3"></li>
-						<li class="programs_img"><img src="" alt="img4"></li>
-						<li class="programs_img"><img src="" alt="img5"></li>
-						<li class="programs_img"><img src="" alt="img6"></li>
-						<li class="programs_img"><img src="" alt="img7"></li>
-						<li class="programs_img"><img src="" alt="img8"></li>
-						<li class="programs_img"><img src="" alt="img9"></li>
+						<li class="programs_img"><img src="img/image.png" alt="img1"></li>
+						<li class="programs_img"><img src="img/image.png" alt="img2"></li>
+						<li class="programs_img"><img src="img/image.png" alt="img3"></li><li class="programs_img"><img src="img/image.png" alt="img4"></li>
+						<li class="programs_img"><img src="img/image.png" alt="img5"></li>
+						<li class="programs_img"><img src="img/image.png" alt="img6"></li>
+						<li class="programs_img"><img src="img/image.png" alt="img7"></li>
+						<li class="programs_img"><img src="img/image.png" alt="img8"></li>
+						<li class="programs_img"><img src="img/image.png" alt="img9"></li>
 					</ul>
 					<p class="programs_desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis aut aspernatur at sunt numquam ut. Earum magni enim eos sint incidunt, deleniti blanditiis. Blanditiis ullam, quibusdam cum libero, illo rerum.</p>
 					<button class="programs_button">Выбрать</button>
 				</article>
 				<article class="col-12 col-md-6 programs__article">
 					<h3 class="programs_name">Obsidian</h3>
-					<div class="programs_promo">
-					 	<a href="https://www.youtube.com/embed/EHY2T0nyt6s?rel=0" data-lity><img src="#" alt="iFrame from youtube"></a> <!-- video from youtube -->
+					<div class="programs__promo">
+					 	<a href="https://www.youtube.com/embed/EHY2T0nyt6s?rel=0" data-lity><img src="img/image.png" alt="iFrame from youtube"></a> video from youtube
 					</div> 
-					<!-- Slider -->
+					Slider
 					<ul class="programs__slider">
-						<li class="programs_img"><img src="" alt="img1"></li>
-						<li class="programs_img"><img src="" alt="img2"></li>
-						<li class="programs_img"><img src="" alt="img3"></li>
-						<li class="programs_img"><img src="" alt="img4"></li>
-						<li class="programs_img"><img src="" alt="img5"></li>
-						<li class="programs_img"><img src="" alt="img6"></li>
-						<li class="programs_img"><img src="" alt="img7"></li>
-						<li class="programs_img"><img src="" alt="img8"></li>
-						<li class="programs_img"><img src="" alt="img9"></li>
+						<li class="programs_img"><img src="img/image.png" alt="img1"></li>
+						<li class="programs_img"><img src="img/image.png" alt="img2"></li>
+						<li class="programs_img"><img src="img/image.png" alt="img3"></li><li class="programs_img"><img src="img/image.png" alt="img4"></li>
+						<li class="programs_img"><img src="img/image.png" alt="img5"></li>
+						<li class="programs_img"><img src="img/image.png" alt="img6"></li>
+						<li class="programs_img"><img src="img/image.png" alt="img7"></li>
+						<li class="programs_img"><img src="img/image.png" alt="img8"></li>
+						<li class="programs_img"><img src="img/image.png" alt="img9"></li>
 					</ul>
 					<p class="programs_desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis aut aspernatur at sunt numquam ut. Earum magni enim eos sint incidunt, deleniti blanditiis. Blanditiis ullam, quibusdam cum libero, illo rerum.</p>
 					<button class="programs_button">Выбрать</button>
 				</article>
 			</div>
+		</section> -->
+
+		<section class="forms">
+			<div class="forms__first">
+				<div class="comeback"></div>
+				<header>
+					<h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, impedit.</h2>
+				</header>
+				<article>
+					<!-- Количество участников программы -->
+					<ul>
+						<li>1</li> 1 человек
+						<li>2</li> 2 человек
+						<li>3</li> 3 человек
+						<li>4</li> 4 человек
+						<li>5</li> 5 человек
+						<li>5+</li> 5+ человек
+					</ul>
+				</article>
+			</div>
+				
+			<!-- <div class="forms__second">
+				<div class="comeback"></div>
+				<header>
+					<h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, hic.</h2>
+				</header>
+				<article>
+					Выбрать дополнительный реквизит к программе
+					<ul>
+						<li>1</li> Огнемет
+						<li>2</li> Огненое сердце
+						<li>3</li> Огненая надпись
+						<li>4</li> Доп. пиротехника
+						<li>5</li> Фотосессия с огнем
+					</ul>
+				</article>
+				<button>Ничего ненадо</button>
+			</div> -->
+				
+			<!-- <div class="forms__third">
+				<div class="comeback"></div>
+				<header>
+					<h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, optio!</h2>
+				</header>
+				<article>
+					<form action="mail.php" method='post'>
+						<label for=""></label>
+						<input type="text">
+						<label for=""></label>
+						<input type="text">
+						<label for=""></label>
+						<input type="e-mail">
+						<label for=""></label>
+						<input type="phone">
+						<label for=""></label>
+						<input type="date">
+						<input type="sumbit" value="Оформить заказ">
+					</form>
+				</article>
+			</div> -->
 		</section>
-	
-		<!-- <section class="size-block">
-			<div class="comeback"></div>
-			<header>
-				<h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, impedit.</h2>
-			</header>
-			<article>
-				Количество участников программы
-				<ul>
-					<li>1</li> 1 человек
-					<li>2</li> 2 человек
-					<li>3</li> 3 человек
-					<li>4</li> 4 человек
-					<li>5</li> 5 человек
-					<li>5+</li> 5+ человек
-				</ul>
-			</article>
-		</section> -->
-			
-		<!-- <section class="add-block">
-			<div class="comeback"></div>
-			<header>
-				<h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, hic.</h2>
-			</header>
-			<article>
-				Выбрать дополнительный реквизит к программе
-				<ul>
-					<li>1</li> Огнемет
-					<li>2</li> Огненое сердце
-					<li>3</li> Огненая надпись
-					<li>4</li> Доп. пиротехника
-					<li>5</li> Фотосессия с огнем
-				</ul>
-			</article>
-			<button>Ничего ненадо</button>
-		</section> -->
-			
-		<!-- <section class="form-block">
-			<div class="comeback"></div>
-			<header>
-				<h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, optio!</h2>
-			</header>
-			<article>
-				<form action="mail.php" method='post'>
-					<label for=""></label>
-					<input type="text">
-					<label for=""></label>
-					<input type="text">
-					<label for=""></label>
-					<input type="e-mail">
-					<label for=""></label>
-					<input type="phone">
-					<label for=""></label>
-					<input type="date">
-					<input type="sumbit" value="Оформить заказ">
-				</form>
-			</article>
-		</section> -->
 	</div>
 	<!-- <div class="light-wrapper">
 		<div class="prog-block">
