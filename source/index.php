@@ -62,18 +62,12 @@
 				<article class="col-12 col-md-6 programs__article">
 					<h3 class="programs_name">Moon Light</h3>
 					<div class="programs__promo">
-					 	<a href="https://www.youtube.com/embed/Kxjvsaws7UQ?rel=0" data-lity><img src="img/image.png" alt="iFrame from youtube"></a> video from youtube
+					 	<a href="https://www.youtube.com/embed/Kxjvsaws7UQ?rel=0" data-lity><img src="img/image.png" alt="iFrame from youtube"></a>
 					</div>
-					Slider
 					<ul class="programs__slider">
 						<li class="programs_img"><img src="img/image.png" alt="img1"></li>
 						<li class="programs_img"><img src="img/image.png" alt="img2"></li>
-						<li class="programs_img"><img src="img/image.png" alt="img3"></li><li class="programs_img"><img src="img/image.png" alt="img4"></li>
-						<li class="programs_img"><img src="img/image.png" alt="img5"></li>
-						<li class="programs_img"><img src="img/image.png" alt="img6"></li>
-						<li class="programs_img"><img src="img/image.png" alt="img7"></li>
-						<li class="programs_img"><img src="img/image.png" alt="img8"></li>
-						<li class="programs_img"><img src="img/image.png" alt="img9"></li>
+						<li class="programs_img"><img src="img/image.png" alt="img3"></li>
 					</ul>
 					<p class="programs_desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis aut aspernatur at sunt numquam ut. Earum magni enim eos sint incidunt, deleniti blanditiis. Blanditiis ullam, quibusdam cum libero, illo rerum.</p>
 					<button class="programs_button">Выбрать</button>
@@ -81,18 +75,12 @@
 				<article class="col-12 col-md-6 programs__article">
 					<h3 class="programs_name">Obsidian</h3>
 					<div class="programs__promo">
-					 	<a href="https://www.youtube.com/embed/EHY2T0nyt6s?rel=0" data-lity><img src="img/image.png" alt="iFrame from youtube"></a> video from youtube
+					 	<a href="https://www.youtube.com/embed/EHY2T0nyt6s?rel=0" data-lity><img src="img/image.png" alt="iFrame from youtube"></a>
 					</div> 
-					Slider
 					<ul class="programs__slider">
 						<li class="programs_img"><img src="img/image.png" alt="img1"></li>
 						<li class="programs_img"><img src="img/image.png" alt="img2"></li>
-						<li class="programs_img"><img src="img/image.png" alt="img3"></li><li class="programs_img"><img src="img/image.png" alt="img4"></li>
-						<li class="programs_img"><img src="img/image.png" alt="img5"></li>
-						<li class="programs_img"><img src="img/image.png" alt="img6"></li>
-						<li class="programs_img"><img src="img/image.png" alt="img7"></li>
-						<li class="programs_img"><img src="img/image.png" alt="img8"></li>
-						<li class="programs_img"><img src="img/image.png" alt="img9"></li>
+						<li class="programs_img"><img src="img/image.png" alt="img3"></li>
 					</ul>
 					<p class="programs_desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis aut aspernatur at sunt numquam ut. Earum magni enim eos sint incidunt, deleniti blanditiis. Blanditiis ullam, quibusdam cum libero, illo rerum.</p>
 					<button class="programs_button">Выбрать</button>
@@ -102,19 +90,97 @@
 
 		<section class="forms">
 			<div class="forms__first">
-				<div class="comeback"></div>
-				<header>
-					<h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, impedit.</h2>
+				<div class="comeback">Назад</div>
+				<header class="forms__header">
+					<h2 class="forms_title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, impedit.</h2>
 				</header>
-				<article>
-					<!-- Количество участников программы -->
-					<ul>
-						<li>1</li> 1 человек
-						<li>2</li> 2 человек
-						<li>3</li> 3 человек
-						<li>4</li> 4 человек
-						<li>5</li> 5 человек
-						<li>5+</li> 5+ человек
+				<article class="forms__article">
+					<ul class="forms__list-people">
+						<li class="forms_li-people">
+							<div class="forms_li-img">
+								<span class="fas fa-user fa-4x"></span>
+							</div>
+							<div class="forms__li-block">
+								<div class="forms_li-price">1800 грн</div>
+								<div class="forms__li-desc">
+									<label class="forms_li-time">Длительность: 7-8 минут</label>
+									<label class="forms_li-area">Площадка: от 3х5 метров</label>
+								</div>
+							</div>
+						</li>
+						<li class="forms_li-people">
+							<div class="forms_li-img">
+								<span class="fas fa-user fa-3x"></span>
+								<span class="fas fa-user fa-2x"></span>
+							</div>
+							<div class="forms__li-block">
+								<div class="forms_li-price">3800 грн</div>
+								<div class="forms__li-desc">
+									<label class="forms_li-time">Длительность: 10-11 минут</label>
+									<label class="forms_li-area">Площадка: от 4х7 метров</label>
+								</div>
+							</div>
+						</li>
+						<li class="forms_li-people">
+							<div class="forms_li-img">
+								<span class="fas fa-users fa-5x"></span>
+							</div>
+							<div class="forms__li-block">
+								<div class="forms_li-price">5300 грн</div>
+								<div class="forms__li-desc">
+									<label class="forms_li-time">Длительность: 12-13 минут</label>
+									<label class="forms_li-area">Площадка: от 5х7 метров</label>
+								</div>
+							</div>
+						</li>
+						<li class="forms_li-people">
+							<div class="forms_li-img">
+								<span class="fas fa-user fa-3x"></span>
+								<span class="fas fa-user fa-2x"></span>
+								<span class="fas fa-user fa-3x"></span>
+								<span class="fas fa-user fa-2x"></span>
+							</div>
+							<div class="forms__li-block">
+								<div class="forms_li-price">6700 грн</div>
+								<div class="forms__li-desc">
+									<label class="forms_li-time">Длительность: 13-14 минут</label>
+									<label class="forms_li-area">Площадка: от 5х8 метров</label>
+								</div>
+							</div>
+						</li>
+						<li class="forms_li-people">
+							<div class="forms_li-img">
+								<span class="fas fa-user fa-3x"></span>
+								<span class="fas fa-user fa-2x"></span>
+								<span class="fas fa-user fa-3x"></span>
+								<span class="fas fa-user fa-2x"></span>
+								<span class="fas fa-user fa-3x"></span>
+							</div>
+							<div class="forms__li-block">
+								<div class="forms_li-price">8000 грн</div>
+								<div class="forms__li-desc">
+									<label class="forms_li-time">Длительность: 14-15 минут</label>
+									<label class="forms_li-area">Площадка: от 6х8 метров</label>
+								</div>
+							</div>
+						</li>
+						<li class="forms_li-people">
+							<div class="forms_li-img">
+								<span class="fas fa-user fa-3x"></span>
+								<span class="fas fa-user fa-2x"></span>
+								<span class="fas fa-user fa-3x"></span>
+								<span class="fas fa-user fa-2x"></span>
+								<span class="fas fa-user fa-3x"></span>
+								<span class="fas fa-plus fa-lg"></span>
+							</div>
+							<div class="forms__li-block">
+								<div class="forms_li-price">10000 грн</div>
+								<div class="forms__li-desc">
+									<label class="forms_li-time">Длительность: 	15-16 минут</label>
+									<label class="forms_li-area">Площадка: от 10х10 метров</label>
+								</div>
+							</div>
+						</li>
 					</ul>
 				</article>
 			</div>
