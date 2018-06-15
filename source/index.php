@@ -89,119 +89,149 @@
 		</section> -->
 
 		<section class="forms">
-			<div class="forms__first">
+			<!-- <div class="first">
 				<div class="comeback">Назад</div>
-				<header class="forms__header">
-					<h2 class="forms_title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, impedit.</h2>
+				<header class="first__header">
+					<h2 class="first_title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, impedit.</h2>
 				</header>
-				<article class="forms__article">
-					<ul class="forms__list-people">
-						<li class="forms_li-people">
-							<div class="forms_li-img">
+				<article class="first__article">
+					<ul class="first__list-people">
+						<li class="first__li-people">
+							<div class="first__li-icon">
 								<span class="fas fa-user fa-4x"></span>
 							</div>
-							<div class="forms__li-block">
-								<div class="forms_li-price">1800 грн</div>
-								<div class="forms__li-desc">
-									<label class="forms_li-time">Длительность: 7-8 минут</label>
-									<label class="forms_li-area">Площадка: от 3х5 метров</label>
+							<div class="first__li-block">
+								<div class="first_li-price">1800 грн</div>
+								<div class="first__li-desc">
+									<label class="first_li-time">Длительность: 7-8 минут</label>
+									<label class="first_li-area">Площадка: от 3х5 метров</label>
 								</div>
 							</div>
 						</li>
-						<li class="forms_li-people">
-							<div class="forms_li-img">
+						<li class="first__li-people">
+							<div class="first__li-icon">
 								<span class="fas fa-user fa-3x"></span>
 								<span class="fas fa-user fa-2x"></span>
 							</div>
-							<div class="forms__li-block">
-								<div class="forms_li-price">3800 грн</div>
-								<div class="forms__li-desc">
-									<label class="forms_li-time">Длительность: 10-11 минут</label>
-									<label class="forms_li-area">Площадка: от 4х7 метров</label>
+							<div class="first__li-block">
+								<div class="first_li-price">3800 грн</div>
+								<div class="first__li-desc">
+									<label class="first_li-time">Длительность: 10-11 минут</label>
+									<label class="first_li-area">Площадка: от 4х7 метров</label>
 								</div>
 							</div>
 						</li>
-						<li class="forms_li-people">
-							<div class="forms_li-img">
+						<li class="first__li-people">
+							<div class="first__li-icon">
 								<span class="fas fa-users fa-5x"></span>
 							</div>
-							<div class="forms__li-block">
-								<div class="forms_li-price">5300 грн</div>
-								<div class="forms__li-desc">
-									<label class="forms_li-time">Длительность: 12-13 минут</label>
-									<label class="forms_li-area">Площадка: от 5х7 метров</label>
+							<div class="first__li-block">
+								<div class="first_li-price">5300 грн</div>
+								<div class="first__li-desc">
+									<label class="first_li-time">Длительность: 12-13 минут</label>
+									<label class="first_li-area">Площадка: от 5х7 метров</label>
 								</div>
 							</div>
 						</li>
-						<li class="forms_li-people">
-							<div class="forms_li-img">
+						<li class="first__li-people">
+							<div class="first__li-icon">
 								<span class="fas fa-user fa-3x"></span>
 								<span class="fas fa-user fa-2x"></span>
 								<span class="fas fa-user fa-3x"></span>
 								<span class="fas fa-user fa-2x"></span>
 							</div>
-							<div class="forms__li-block">
-								<div class="forms_li-price">6700 грн</div>
-								<div class="forms__li-desc">
-									<label class="forms_li-time">Длительность: 13-14 минут</label>
-									<label class="forms_li-area">Площадка: от 5х8 метров</label>
+							<div class="first__li-block">
+								<div class="first_li-price">6700 грн</div>
+								<div class="first__li-desc">
+									<label class="first_li-time">Длительность: 13-14 минут</label>
+									<label class="first_li-area">Площадка: от 5х8 метров</label>
 								</div>
 							</div>
 						</li>
-						<li class="forms_li-people">
-							<div class="forms_li-img">
+						<li class="first__li-people">
+							<div class="first__li-icon">
 								<span class="fas fa-user fa-3x"></span>
-								<span class="fas fa-user fa-2x"></span>
-								<span class="fas fa-user fa-3x"></span>
-								<span class="fas fa-user fa-2x"></span>
+								<span class="fas fa-users fa-5x"></span>
 								<span class="fas fa-user fa-3x"></span>
 							</div>
-							<div class="forms__li-block">
-								<div class="forms_li-price">8000 грн</div>
-								<div class="forms__li-desc">
-									<label class="forms_li-time">Длительность: 14-15 минут</label>
-									<label class="forms_li-area">Площадка: от 6х8 метров</label>
+							<div class="first__li-block">
+								<div class="first_li-price">8000 грн</div>
+								<div class="first__li-desc">
+									<label class="first_li-time">Длительность: 14-15 минут</label>
+									<label class="first_li-area">Площадка: от 6х8 метров</label>
 								</div>
 							</div>
 						</li>
-						<li class="forms_li-people">
-							<div class="forms_li-img">
+						<li class="first__li-people">
+							<div class="first__li-icon">
 								<span class="fas fa-user fa-3x"></span>
-								<span class="fas fa-user fa-2x"></span>
+								<span class="fas fa-users fa-5x"></span>
 								<span class="fas fa-user fa-3x"></span>
-								<span class="fas fa-user fa-2x"></span>
-								<span class="fas fa-user fa-3x"></span>
-								<span class="fas fa-plus fa-lg"></span>
+								<span class="fas fa-plus fa-lg forms_icon-plus"></span>
 							</div>
-							<div class="forms__li-block">
-								<div class="forms_li-price">10000 грн</div>
-								<div class="forms__li-desc">
-									<label class="forms_li-time">Длительность: 	15-16 минут</label>
-									<label class="forms_li-area">Площадка: от 10х10 метров</label>
+							<div class="first__li-block">
+								<div class="first_li-price">10000 грн</div>
+								<div class="first__li-desc">
+									<label class="first_li-time">Длительность: 	15-16 минут</label>
+									<label class="first_li-area">Площадка: от 10х10 метров</label>
 								</div>
 							</div>
 						</li>
 					</ul>
 				</article>
-			</div>
-				
-			<!-- <div class="forms__second">
-				<div class="comeback"></div>
-				<header>
-					<h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, hic.</h2>
-				</header>
-				<article>
-					Выбрать дополнительный реквизит к программе
-					<ul>
-						<li>1</li> Огнемет
-						<li>2</li> Огненое сердце
-						<li>3</li> Огненая надпись
-						<li>4</li> Доп. пиротехника
-						<li>5</li> Фотосессия с огнем
-					</ul>
-				</article>
-				<button>Ничего ненадо</button>
 			</div> -->
+				
+			<div class="second">
+				<div class="comeback">Назад</div>
+				<header class="second__header">
+					<h2 class="second_title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, hic.</h2>
+				</header>
+				<article class="second__article">
+					<ul class="second__list">
+						<li class="second__li">
+							<img src="img/image.png" alt="" class="second_li-img">
+							<div class="second__li-desc">
+								<label class="second_li-name">Огнемет</label>
+								<label class="second_li-price">1100 грн</label>
+								<input type="button" class="second_li-button" value="Выбрать">
+							</div>
+						</li> 
+						<li class="second__li">
+							<img src="img/image.png" alt="" class="second_li-img">
+							<div class="second__li-desc">
+								<label class="second_li-name">Огненое сердце</label>
+								<label class="second_li-price">700 грн</label>
+								<input type="button" class="second_li-button" value="Выбрать">
+							</div>
+						</li> 
+						<li class="second__li">
+							<img src="img/image.png" alt="" class="second_li-img">
+							<div class="second__li-desc">
+								<label class="second_li-name">Огненая надпись</label>
+								<label class="second_li-price">Зависит от конструкции</label>
+								<input type="button" class="second_li-button" value="Выбрать">
+							</div>
+						</li> 
+						<li class="second__li">
+							<img src="img/image.png" alt="" class="second_li-img">
+							<div class="second__li-desc">
+								<label class="second_li-name">Доп. пиротехника</label>
+								<label class="second_li-price">от 200 грн</label>
+								<input type="button" class="second_li-button" value="Выбрать">
+							</div>
+						</li> 
+						<li class="second__li">
+							<img src="img/image.png" alt="" class="second_li-img">
+							<div class="second__li-desc">
+								<label class="second_li-name">Фотосессия с огнем</label>
+								<label class="second_li-price">Не знаю</label>
+								<input type="button" class="second_li-button" value="Выбрать">
+							</div>
+						</li> 
+					</ul>
+				</article>
+				<input type="button" value="Ничего ненадо">
+			</div>
 				
 			<!-- <div class="forms__third">
 				<div class="comeback"></div>

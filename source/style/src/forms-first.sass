@@ -1,10 +1,11 @@
-.forms
-	&__first
-		display: flex
-		flex-direction: column
-		align-items: center
-		width: 100%
-
+.first
+	// первая форма
+	display: flex
+	flex-direction: column
+	align-items: center
+	width: 100%
+	
+	// FORM__FIRST > HEADER
 	&__header
 		margin-top: 50px
 		width: 80%
@@ -12,10 +13,15 @@
 
 		@media screen and (min-width: 768px)
 			margin-top: 5px
-
+	
+	//FORM__FIRST > ARTICLE
 	&__article
 		width: 100%
 
+		@media screen and (min-width: 768px)
+			height: 100%
+
+	// ARTICLE > UL - СПИСОК
 	&__list-people
 		display: flex
 		justify-content: space-around
@@ -24,16 +30,70 @@
 		margin-top: 20px
 		width: 100%
 
-	&_li-people
+		@media screen and (min-width: 768px)
+			height: 100%
+
+	// ARTICLE > UL > LI - ПУНКТЫ
+	&__li-people
 		display: flex
 		flex-direction: column
 		align-items: center
 		justify-content: space-around
 		margin: 10px 0 10px 0
-		width: 100%
+		border: 1px solid black
+		padding: 10px 0 10px 0
+		width: 90%
 		text-align: center
 
-	&_li-desc
+		@media screen and (min-width: 768px)
+			flex-direction: row
+			padding: 40px 0 40px 0
+			width: 49%
+
+	// реверсно меняем блоки списка
+	&__li-people:last-of-type
+		@media screen and (min-width: 768px)
+			flex-direction: row-reverse
+	&__li-people:nth-of-type(2)
+		@media screen and (min-width: 768px)
+			flex-direction: row-reverse
+	&__li-people:nth-of-type(4)
+		@media screen and (min-width: 768px)
+			flex-direction: row-reverse
+	
+	// смещаем иконки
+	&__li-people:nth-child(5)
+		svg
+			position: relative
+		svg:first-of-type
+			left: 5%
+			bottom: 5px
+		svg:last-of-type
+			left: -5%
+			bottom: 5px
+	&__li-people:last-child
+		svg
+			position: relative
+			left: 5%
+		svg:first-of-type
+			left: 10%
+			bottom: 5px
+		svg:nth-of-type(3)
+			left: 0
+			bottom: 5px
+		svg:last-of-type
+			left: 0
+
+	// UL > LI > ICON-PEOPLE
+	&__li-icon
+		@media screen and (min-width: 768px)
+			width: 50%
+
+	// UL > LI > PRICE
+	&_li-price
+		margin-top: 10px
+	// UL > LI > DESC
+	&__li-desc
 		display: flex
 		flex-direction: column
-		margin-top: 20px
+		margin-top: 10px
