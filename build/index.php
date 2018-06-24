@@ -52,8 +52,8 @@
 		</footer>
 	</div> -->
 
-	<div class="fire-wrapper">
-		<!-- <section class="programs">
+	<!-- <div class="fire-wrapper">
+		<section class="programs">
 			<div class="comeback">Назад</div>
 			<header class="programs__header">
 				<h2 class="programs_title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, omnis beatae voluptatibus voluptates deleniti, nisi.</h2>
@@ -86,10 +86,10 @@
 					<button class="programs_button">Выбрать</button>
 				</article>
 			</div>
-		</section> -->
-
+		</section>
+	
 		<section class="forms">
-			<!-- <div class="first">
+			<div class="first">
 				<div class="comeback">Назад</div>
 				<header class="first__header">
 					<h2 class="first_title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, impedit.</h2>
@@ -179,7 +179,7 @@
 						</li>
 					</ul>
 				</article>
-			</div> -->
+			</div>
 				
 			<div class="second">
 				<div class="comeback">Назад</div>
@@ -189,156 +189,264 @@
 				<article class="second__article">
 					<ul class="second__list">
 						<li class="second__li">
-							<img src="img/image.png" alt="" class="second_li-img">
-							<div class="second__li-desc">
-								<label class="second_li-name">Огнемет</label>
-								<label class="second_li-price">1100 грн</label>
-								<input type="button" class="second_li-button" value="Выбрать">
+							<div class="second__block">
+								<img src="img/image.png" alt="" class="second_li-img">
+								<div class="second__li-desc">
+									<label class="second_li-name">Огнемет</label>
+									<label class="second_li-price">1100 грн</label>
+									<input type="button" class="second_li-button" value="Выбрать">
+								</div>
 							</div>
-						</li> 
+						</li>
 						<li class="second__li">
-							<img src="img/image.png" alt="" class="second_li-img">
-							<div class="second__li-desc">
-								<label class="second_li-name">Огненое сердце</label>
-								<label class="second_li-price">700 грн</label>
-								<input type="button" class="second_li-button" value="Выбрать">
+							<div class="second__block">
+								<img src="img/image.png" alt="" class="second_li-img">
+								<div class="second__li-desc">
+									<label class="second_li-name">Огненое сердце</label>
+									<label class="second_li-price">700 грн</label>
+									<input type="button" class="second_li-button" value="Выбрать">
+								</div>
 							</div>
-						</li> 
+						</li>
 						<li class="second__li">
-							<img src="img/image.png" alt="" class="second_li-img">
-							<div class="second__li-desc">
-								<label class="second_li-name">Огненая надпись</label>
-								<label class="second_li-price">Зависит от конструкции</label>
-								<input type="button" class="second_li-button" value="Выбрать">
+							<div class="second__block">
+								<img src="img/image.png" alt="" class="second_li-img">
+								<div class="second__li-desc">
+									<label class="second_li-name">Огненая надпись</label>
+									<label class="second_li-price">Зависит от конструкции</label>
+									<input type="button" class="second_li-button" value="Выбрать">
+								</div>
 							</div>
-						</li> 
+						</li>
 						<li class="second__li">
-							<img src="img/image.png" alt="" class="second_li-img">
-							<div class="second__li-desc">
-								<label class="second_li-name">Доп. пиротехника</label>
-								<label class="second_li-price">от 200 грн</label>
-								<input type="button" class="second_li-button" value="Выбрать">
+							<div class="second__block">
+								<img src="img/image.png" alt="" class="second_li-img">
+								<div class="second__li-desc">
+									<label class="second_li-name">Доп. пиротехника</label>
+									<label class="second_li-price">от 200 грн</label>
+									<input type="button" class="second_li-button" value="Выбрать">
+								</div>
 							</div>
-						</li> 
+						</li>
 						<li class="second__li">
-							<img src="img/image.png" alt="" class="second_li-img">
-							<div class="second__li-desc">
-								<label class="second_li-name">Фотосессия с огнем</label>
-								<label class="second_li-price">Не знаю</label>
-								<input type="button" class="second_li-button" value="Выбрать">
+							<div class="second__block">
+								<img src="img/image.png" alt="" class="second_li-img">
+								<div class="second__li-desc">
+									<label class="second_li-name">Фотосессия с огнем</label>
+									<label class="second_li-price">Не знаю</label>
+									<input type="button" class="second_li-button" value="Выбрать">
+								</div>
 							</div>
 						</li> 
 					</ul>
 				</article>
-				<input type="button" value="Ничего ненадо">
+				<input class="nothing" type="button" value="Ничего ненадо">
 			</div>
 				
-			<!-- <div class="forms__third">
-				<div class="comeback"></div>
-				<header>
-					<h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, optio!</h2>
+			<div class="third">
+				<div class="comeback">Назад</div>
+				<header class="third__header">
+					<h2 class="third_title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, optio!</h2>
 				</header>
-				<article>
-					<form action="mail.php" method='post'>
-						<label for=""></label>
-						<input type="text">
-						<label for=""></label>
-						<input type="text">
-						<label for=""></label>
-						<input type="e-mail">
-						<label for=""></label>
-						<input type="phone">
-						<label for=""></label>
-						<input type="date">
-						<input type="sumbit" value="Оформить заказ">
+				<article class="third__article">
+					<form class="third__form" action="mail.php" method='post'>
+						<div class="third__form-block">
+							<label for="name">Имя:</label>
+							<input type="text" id="name" name="name" required>	
+						</div>
+						
+						<div class="third__form-block">
+							<label for="surname">Фамилия:</label>
+							<input type="text" id="surname" name="surname">
+						</div>
+						
+						<div class="third__form-block">
+							<label for="email">Электронная почта:</label>
+							<input type="e-mail" id="email" name="email" required>
+						</div>
+						
+						<div class="third__form-block">
+							<label for="phone">Номер телефона:</label>
+							<input type="phone" id="phone" name="phone" required>
+						</div>
+						
+						<div class="third__form-block">
+							<label for="date">Установите дату мероприятия</label>
+							<input type="date" id="date" name="date">
+						</div>
+						
+						<input type="submit" id="submit" value="Оформить заказ">
 					</form>
 				</article>
-			</div> -->
+			</div>
 		</section>
-	</div>
+	</div>  -->
 	<!-- <div class="light-wrapper">
-		<div class="prog-block">
-			<div class="comeback"></div> Кнопка назад
-			<header>
-				<h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, omnis beatae voluptatibus voluptates deleniti, nisi.</h2>
+		<section class="programs">
+			<div class="comeback">Назад</div>
+			<header class="programs__header">
+				<h2 class="programs_title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, omnis beatae voluptatibus voluptates deleniti, nisi.</h2>
 			</header>
-			<article>
-				<h3>Blue</h3>
-				<iframe src="" frameborder="0"></iframe> video from youtube
-				Slider
-				<ul>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-				</ul>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis aut aspernatur at sunt numquam ut. Earum magni enim eos sint incidunt, deleniti blanditiis. Blanditiis ullam, quibusdam cum libero, illo rerum.</p>
-				<button>Выбрать</button>
-			</article>
-			<article>
-				<h3>Obsidian Led</h3>
-				<iframe src="" frameborder="0"></iframe> video from youtube
-				Slider
-				<ul>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-				</ul>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis aut aspernatur at sunt numquam ut. Earum magni enim eos sint incidunt, deleniti blanditiis. Blanditiis ullam, quibusdam cum libero, illo rerum.</p>
-				<button>Выбрать</button>
-			</article>
-		</div>
+			<div class="row">
+				<article class="col-12 col-md-6 programs__article">
+					<h3 class="programs_name">Moon Light LED</h3>
+					<div class="programs__promo">
+					 	<a href="https://www.youtube.com/embed/Kxjvsaws7UQ?rel=0" data-lity><img src="img/image.png" alt="iFrame from youtube"></a>
+					</div>
+					<ul class="programs__slider">
+						<li class="programs_img"><img src="img/image.png" alt="img1"></li>
+						<li class="programs_img"><img src="img/image.png" alt="img2"></li>
+						<li class="programs_img"><img src="img/image.png" alt="img3"></li>
+					</ul>
+					<p class="programs_desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis aut aspernatur at sunt numquam ut. Earum magni enim eos sint incidunt, deleniti blanditiis. Blanditiis ullam, quibusdam cum libero, illo rerum.</p>
+					<button class="programs_button">Выбрать</button>
+				</article>
+				<article class="col-12 col-md-6 programs__article">
+					<h3 class="programs_name">Obsidian LED</h3>
+					<div class="programs__promo">
+					 	<a href="https://www.youtube.com/embed/EHY2T0nyt6s?rel=0" data-lity><img src="img/image.png" alt="iFrame from youtube"></a>
+					</div> 
+					<ul class="programs__slider">
+						<li class="programs_img"><img src="img/image.png" alt="img1"></li>
+						<li class="programs_img"><img src="img/image.png" alt="img2"></li>
+						<li class="programs_img"><img src="img/image.png" alt="img3"></li>
+					</ul>
+					<p class="programs_desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis aut aspernatur at sunt numquam ut. Earum magni enim eos sint incidunt, deleniti blanditiis. Blanditiis ullam, quibusdam cum libero, illo rerum.</p>
+					<button class="programs_button">Выбрать</button>
+				</article>
+			</div>
+		</section>
 	
-		<div class="size-block">
-			<div class="comeback"></div>
-			<header>
-				<h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, impedit.</h2>
-			</header>
-			<article>
-				Количество участников программы
-				<ul>
-					<li>1</li> 1 человек
-					<li>2</li> 2 человек
-					<li>3</li> 3 человек
-					<li>4</li> 4 человек
-					<li>5</li> 5 человек
-					<li>5+</li> 5+ человек
-				</ul>
-			</article>
-		</div>
-	
-		<div class="form-block">
-			<div class="comeback"></div>
-			<header>
-				<h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, optio!</h2>
-			</header>
-			<article>
-				<form action="mail.php" method='post'>
-					<label for=""></label>
-					<input type="text">
-					<label for=""></label>
-					<input type="text">
-					<label for=""></label>
-					<input type="e-mail">
-					<label for=""></label>
-					<input type="phone">
-					<label for=""></label>
-					<input type="date">
-					<input type="sumbit" value="Оформить заказ">
-				</form>
-			</article>
-		</div>
+		<section class="forms">
+			<div class="first">
+				<div class="comeback">Назад</div>
+				<header class="first__header">
+					<h2 class="first_title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, impedit.</h2>
+				</header>
+				<article class="first__article">
+					<ul class="first__list-people">
+						<li class="first__li-people">
+							<div class="first__li-icon">
+								<span class="fas fa-user fa-4x"></span>
+							</div>
+							<div class="first__li-block">
+								<div class="first_li-price">1800 грн</div>
+								<div class="first__li-desc">
+									<label class="first_li-time">Длительность: 7-8 минут</label>
+									<label class="first_li-area">Площадка: от 3х5 метров</label>
+								</div>
+							</div>
+						</li>
+						<li class="first__li-people">
+							<div class="first__li-icon">
+								<span class="fas fa-user fa-3x"></span>
+								<span class="fas fa-user fa-2x"></span>
+							</div>
+							<div class="first__li-block">
+								<div class="first_li-price">3800 грн</div>
+								<div class="first__li-desc">
+									<label class="first_li-time">Длительность: 10-11 минут</label>
+									<label class="first_li-area">Площадка: от 4х7 метров</label>
+								</div>
+							</div>
+						</li>
+						<li class="first__li-people">
+							<div class="first__li-icon">
+								<span class="fas fa-users fa-5x"></span>
+							</div>
+							<div class="first__li-block">
+								<div class="first_li-price">5300 грн</div>
+								<div class="first__li-desc">
+									<label class="first_li-time">Длительность: 12-13 минут</label>
+									<label class="first_li-area">Площадка: от 5х7 метров</label>
+								</div>
+							</div>
+						</li>
+						<li class="first__li-people">
+							<div class="first__li-icon">
+								<span class="fas fa-user fa-3x"></span>
+								<span class="fas fa-user fa-2x"></span>
+								<span class="fas fa-user fa-3x"></span>
+								<span class="fas fa-user fa-2x"></span>
+							</div>
+							<div class="first__li-block">
+								<div class="first_li-price">6700 грн</div>
+								<div class="first__li-desc">
+									<label class="first_li-time">Длительность: 13-14 минут</label>
+									<label class="first_li-area">Площадка: от 5х8 метров</label>
+								</div>
+							</div>
+						</li>
+						<li class="first__li-people">
+							<div class="first__li-icon">
+								<span class="fas fa-user fa-3x"></span>
+								<span class="fas fa-users fa-5x"></span>
+								<span class="fas fa-user fa-3x"></span>
+							</div>
+							<div class="first__li-block">
+								<div class="first_li-price">8000 грн</div>
+								<div class="first__li-desc">
+									<label class="first_li-time">Длительность: 14-15 минут</label>
+									<label class="first_li-area">Площадка: от 6х8 метров</label>
+								</div>
+							</div>
+						</li>
+						<li class="first__li-people">
+							<div class="first__li-icon">
+								<span class="fas fa-user fa-3x"></span>
+								<span class="fas fa-users fa-5x"></span>
+								<span class="fas fa-user fa-3x"></span>
+								<span class="fas fa-plus fa-lg forms_icon-plus"></span>
+							</div>
+							<div class="first__li-block">
+								<div class="first_li-price">10000 грн</div>
+								<div class="first__li-desc">
+									<label class="first_li-time">Длительность: 	15-16 минут</label>
+									<label class="first_li-area">Площадка: от 10х10 метров</label>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</article>
+			</div>
+				
+			<div class="third">
+				<div class="comeback">Назад</div>
+				<header class="third__header">
+					<h2 class="third_title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, optio!</h2>
+				</header>
+				<article class="third__article">
+					<form class="third__form" action="mail.php" method='post'>
+						<div class="third__form-block">
+							<label for="name">Имя:</label>
+							<input type="text" id="name" name="name" required>	
+						</div>
+						
+						<div class="third__form-block">
+							<label for="surname">Фамилия:</label>
+							<input type="text" id="surname" name="surname">
+						</div>
+						
+						<div class="third__form-block">
+							<label for="email">Электронная почта:</label>
+							<input type="e-mail" id="email" name="email" required>
+						</div>
+						
+						<div class="third__form-block">
+							<label for="phone">Номер телефона:</label>
+							<input type="phone" id="phone" name="phone" required>
+						</div>
+						
+						<div class="third__form-block">
+							<label for="date">Установите дату мероприятия</label>
+							<input type="date" id="date" name="date">
+						</div>
+						
+						<input type="submit" id="submit" value="Оформить заказ">
+					</form>
+				</article>
+			</div>
+		</section>
 	</div> -->
 
 

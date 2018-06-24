@@ -1,3 +1,51 @@
-// set color
+// DEFOULT COLORS
 $black: #000
 $white: #fff
+
+
+// DEFOULT MIXINS
+
+
+// DEFOULT CLASSES
+
+// wrappers
+.wrapper-programs
+	display: flex
+	width: 100vw
+	overflow: hidden
+
+	@media screen and (min-width: 768px)
+		height: 100vh	
+
+// forms-section
+.forms-section
+	display: flex
+	flex-direction: column
+	align-items: center
+	width: 100%
+
+	@media screen and (min-width: 768px)
+		height: 100vh
+
+// forms-header
+.forms-header
+	margin-top: 50px
+	width: 80%
+	text-align: center
+
+	@media screen and (min-width: 768px)
+			margin-top: 5px
+
+// btn
+.btn
+	background-color: inherit
+	margin: 10px 0 10px 0
+	border: 2px solid $black
+	border-radius: 20px
+	width: 150px
+	height: 30px
+	cursor: pointer
+
+	&:hover
+		background-color: $black
+		color: $white

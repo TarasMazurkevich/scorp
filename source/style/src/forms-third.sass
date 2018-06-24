@@ -1,0 +1,68 @@
+.third
+	// третья форма
+	@extend .forms-section
+
+	// HEADER
+	&__header
+		@extend .forms-header
+
+	// ARTICLE
+	&__article
+		margin-top: 20px
+		width: 100%
+
+		@media screen and (min-width: 768px)
+			height: 85%
+
+	// ARTIClE > FORM
+	&__form
+		display: flex
+		flex-direction: column
+		align-items: center
+
+		@media screen and (min-width: 768px)
+			flex-direction: row
+			flex-wrap: wrap
+			justify-content: space-around
+			align-content: space-around
+			height: 100%
+
+	// ARTIClE > FORM > FORM - block
+	&__form-block
+		display: flex
+		flex-direction: column
+		margin: 10px 0 10px 0
+
+		@media screen and (min-width: 768px)
+			width: 50%
+			align-items: center
+
+		input
+			height: 30px
+
+			@media screen and (min-width: 768px)
+					width: 60%
+
+
+	&__form-block:last-of-type
+		align-items: center
+
+		@media screen and (min-width: 768px)
+			width: 100%
+			margin-top: 20px
+
+		label
+			margin-bottom: 5px
+
+	#date
+		background-color: inherit
+		margin: 10px 0 10px 0
+		border: 2px solid $black
+		border-radius: 20px
+		width: 150px
+		height: 30px
+		cursor: pointer
+		padding-left: 10px
+
+	#submit
+		@extend .btn

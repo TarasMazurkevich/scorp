@@ -1,18 +1,10 @@
 .first
 	// первая форма
-	display: flex
-	flex-direction: column
-	align-items: center
-	width: 100%
+	@extend .forms-section
 	
 	// FORM__FIRST > HEADER
 	&__header
-		margin-top: 50px
-		width: 80%
-		text-align: center
-
-		@media screen and (min-width: 768px)
-			margin-top: 5px
+		@extend .forms-header
 	
 	//FORM__FIRST > ARTICLE
 	&__article
